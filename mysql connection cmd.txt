@@ -1,0 +1,19 @@
+1ST INSTALL DEPENDENCY LIKE pip install fastapi uvicorn sqlalchemy pymysql cryptography
+
+
+go to mysql shell
+1    \sql
+2    \connect root@localhost
+3    \sql
+4   CREATE DATABASE `fastapimysql`;
+5    SHOW DATABASES;
+ 
+ 6    then did uvicorn main:app --reload
+
+
+
+
+ and in workbench use 
+[USE fastapimysql;
+SHOW TABLES;
+select * from posts] commands

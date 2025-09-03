@@ -1,0 +1,5 @@
+for authentication we need to install more dependencies
+
+1) pip install python-jose[cryptography]
+2) pip install passlib[bcrypt]
+3) pip install python-multipart
