@@ -18,8 +18,8 @@ router = APIRouter(
     tags=['auth']
 )
 
-SECRET_KEY='3fT9kLz8sD1QeXvYzW9gJmKpR7tUoVbXcYzQwErT1GhI'
-ALGORITHM = 'HS256'
+SECRET_KEY='USE_YOUR_OWN_SECRET_KEY'      #TAKE HELP OF CHATGPT OR ANY OTHER AI
+ALGORITHM = 'USE_YOUR_OWN'   #TAKE HELP OF CHATGPT OR ANY OTHER AI
 
 bcrypt_context = CryptContext(schemes=['bcrypt'], deprecated='auto')
 oauth2_bearer = OAuth2PasswordBearer(tokenUrl='auth/token')
